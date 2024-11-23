@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "table.css">
+</head>
+<body>
+    <div class = "header">
+        <div class = "link">
+         <a class = "linklab" href = "../Lab1/Lab.html">Основная страница</a>
+         <a class = "linklab" href = "../Lab3/Main.html">CSS-страница</a>
+         <a class = "linklab" href = "../Lab3/page2.html">Позиционирование элементов</a>
+     </div> 
+   </div>
+
+   <h1 class = "h1textHTMLTable">HTML Таблица</h1>
+<div>
+    <table class ="table">
+    <caption class = "capText">Здесь типа таблица</caption>
+    <tr class = "tableColumn1">
+        <th class = "firstCellwithData">№</th>
+        <th class = "firstCellwithData">Фамилия</th>
+        <th class = "firstCellwithData">Имя</th>
+        <th class = "firstCellwithData">Пол</th>
+        <th class = "firstCellwithData">Возраст</th>
+        <th class = "firstCellwithData">Номер группы</th>
+    </tr>
+    <tr class = "tableColumn2">
+        <td class = "cells" >1</td>
+        <td class = "cells" >Мартиросян</td>
+        <td class = "cells">Владислав</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">21</td>
+        <td class = "cells">4245-020303D</td>
+    </tr>
+    <tr class = "tableColumn3">
+        <td class = "cells">2</td>
+        <td class = "cells">Асатрян</td>
+        <td class = "cells" >Арсений</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">18</td>
+        <td class = "cells" >4245-020303D</td>
+    </tr>
+    <tr class = "tableColumn4">
+        <td class = "cells">3</td>
+        <td class = "cells">Засухин</td>
+        <td class = "cells">Даниил</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">19</td>
+        <td class = "cells">4245-020303D</td>
+    </tr>
+        <tr class = "tableColumn5">
+        <td class = "cells">4</td>
+        <td class = "cells">Шарипов</td>
+        <td class = "cells">Зуфар</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">18</td>
+        <td class = "cells">4245-020303D</td>
+    </tr>
+    <tr class = "tableColumn6">
+        <td class = "cells">5</td>
+        <td class = "cells">Кравчук</td>
+        <td class = "cells">Владислав</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">19</td>
+        <td class = "cells">4245-020303D</td>
+    </tr>
+        <tr  class = "tableColumn7">
+        <td class = "cells">6</td>
+        <td class = "cells">Костенко</td>
+        <td class = "cells">Ян</td>
+        <td class = "cells">Мужской</td>
+        <td class = "cells">19</td>
+        <td class = "cells">4245-020303D</td>
+    </tr>
+
+</table>
+<form id = "formtotable">
+<div class = "user-input">
+    <h3 id = "User_form_text">Форма заполнения</h3>
+<div class = "Name_user">
+     <span class = "text_for_input">Фамилия:</span> <br>
+    <input type = "text" id = "SurName" name = "SurName" size = "12"><br>
+    <span class = "text_for_input">Имя:</span> <br>
+    <input type = "text" id = "Name" name = "Name" size = "12"><br>
+</div>
+<div class = "Gender_user">
+    
+        <span class = "text_for_input">Пол:</span> <br>
+        <input 
+        type = "radio"
+        id = "Man"
+        name = "gender"
+        >
+        <label  class = "text_for_input" forname = "Man">Мужской</label> <br>
+        <input 
+        type = "radio"
+        id = "Woman"
+        name = "gender"
+        >
+        <label class = "text_for_input" forname = "Woman">Женский</label> <br>
+    
+</div>
+<div class = "Age_user">
+    
+        <span class = "text_for_input">Возраст:</span><br>
+        <input 
+        type = "number"
+         id = "age" 
+         name = "age"
+         min = "0"
+         max = "100"
+         >
+   
+</div>
+<div class = "ClassNum_user">
+        <span class = "text_for_input">Номер группы:</span><br>
+        <input
+         type = "text"
+         size = "10px"
+         >
+</div>
+<div class = "Button_userData">
+    <input type = "button" value = "Отправить">
+</div>
+</div>
+</div>
+</form>
+    </body>
+</html>
